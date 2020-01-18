@@ -1,10 +1,10 @@
 
-public class Triangulo extends FiguraGeometrica {
+public class Triangulo_JMGR extends FiguraGeometrica_JMGR {
 	private double lado1;
 	private double lado2;
 	private double lado3;
 	
-	public Triangulo(String tipoFigura, double lado1, double lado2, double lado3) {
+	public Triangulo_JMGR(String tipoFigura, double lado1, double lado2, double lado3) {
 		super(tipoFigura);
 		lado1 = lado1;
 		lado2 = lado2;
