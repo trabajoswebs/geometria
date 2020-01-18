@@ -1,5 +1,5 @@
 
-public class Triangulo_JMGR extends FiguraGeometrica_JMGR {
+public class Triangulo_JMGR extends FiguraGeometrica_JMGR{
 	private double lado1;
 	private double lado2;
 	private double lado3;

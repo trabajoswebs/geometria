@@ -1,5 +1,5 @@
 
-public class Rectangulo_JMGR extends FiguraGeometrica_JMGR {
+public class Rectangulo_JMGR extends FiguraGeometrica_JMGR{
 	private double l1;
 	private double l2;
 	

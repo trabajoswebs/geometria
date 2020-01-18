@@ -1,5 +1,5 @@
 
-public abstract class FiguraGeometrica_JMGR {
+public abstract class FiguraGeometrica_JMGR{
 
 	protected String tipoFigura;
 
