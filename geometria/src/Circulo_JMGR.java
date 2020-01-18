@@ -6,7 +6,10 @@ public class Circulo_JMGR extends FiguraGeometrica_JMGR{
 	
 	public Circulo_JMGR(double r, String tipoFigura) {
 		super(tipoFigura);
-		radio = r;
+		if(r < 0) {
+			radio = Math.abs(r);
+		}
+		
 	}
 
 	@Override
