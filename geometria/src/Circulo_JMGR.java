@@ -4,10 +4,12 @@ public class Circulo_JMGR extends FiguraGeometrica_JMGR{
 	//Constante pi
 	static final double PI = 3.1416;
 	
-	public Circulo_JMGR(double r, String tipoFigura) {
+	public Circulo_JMGR(double r, String tipoFigura) {		
 		super(tipoFigura);
 		if(r < 0) {
 			radio = Math.abs(r);
+		}else {
+			radio = r;
 		}
 		
 	}
@@ -22,5 +24,6 @@ public class Circulo_JMGR extends FiguraGeometrica_JMGR{
 	public double perimetro() {
 		return radio * 2 * PI;
 	}
+	
 
 }
